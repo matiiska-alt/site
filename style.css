@@ -1,0 +1,199 @@
+body {
+background-image: url("https://files.catbox.moe/ky4we2.png");
+margin: 0;
+padding: 20px;
+}
+
+#siteheading {
+font-family: "Cormorant Garamond", serif;
+font-weight: 400;
+font-style: italic; 
+font-size: 50px;
+display: block;
+text-align: center;
+}
+
+#navbar {
+text-align: center;
+display: block;
+padding: 5px;
+padding-right: 10px;
+margin-top: 30px;
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+box-shadow: 5px 5px;
+border-width: 4px;
+border-style: outset;
+}
+
+#navbar:hover {
+box-shadow: 7px 7px 7px white;
+transition: 150ms ease-out;
+}
+
+button {
+height: 40px;
+width: 80px;
+margin-right: 20px;
+margin-left: 20px;
+background-color: transparent;
+border: none;
+cursor: pointer;
+overflow: hidden;
+border-width: 4px;
+border-style: inset;
+font-family: "Cormorant Garamond", serif;
+font-weight: 400;
+font-style: italic; 
+font-size: 20px;
+}
+
+#navbarheading {
+font-family: "Cormorant Garamond", serif;
+font-weight: 400;
+font-style: italic; 
+font-size: 25px;
+}
+
+
+
+#boxtopwrapper {
+text-align: center;
+background-color: none;
+}
+
+#box {
+display: inline-block;
+text-align: center;
+border-width: 3px;
+border-style: outset;
+padding: 10px;
+margin: 10px 5px; 
+width: 300px;
+height: 300px;
+box-shadow: 3px 3px;
+overflow: auto;
+scrollbar-color: lightgrey grey;
+scrollbar-width: thin;
+}
+
+#box:hover {
+box-shadow: 7px 7px 7px white;
+transition: 150ms ease-out;
+}
+
+#weeklyimagebox {
+display: inline-block;
+text-align: center;
+border-width: 3px;
+border-style: outset;
+padding: 10px;
+margin: 10px 5px; 
+width: 300px;
+height: 300px;
+box-shadow: 3px 3px;
+overflow: hidden;
+}
+
+#weeklyimagebox:hover {
+box-shadow: 7px 7px 7px white;
+transition: all 150ms ease-in-out;
+}
+
+#weeklyimg {
+height: 180px;
+display: inline-block;
+}
+
+#boxheading {
+font-family: "Cormorant Garamond", serif;
+font-weight: 400;
+font-style: italic; 
+font-size: 25px;
+position: sticky;
+}
+
+#hr {
+  background-color: black;
+  color: black;
+  border-top: 1px dotted;
+}
+
+#boxparagraph {
+font-family: "Cormorant Garamond", serif;
+font-weight: 400;
+text-align: left;
+font-style: italic; 
+font-size: 18px;
+overflow: auto;
+}
+
+#boxnote {
+font-family: "Cormorant Garamond", serif;
+font-weight: 400;
+text-align: center;
+font-size: 15px;
+overflow: auto;
+}
+
+#list {
+font-family: "Cormorant Garamond", serif;
+font-weight: 400;
+text-align: left;
+font-style: italic; 
+font-size: 18px;
+overflow: auto;
+}
+
+#listitem {
+font-family: "Cormorant Garamond", serif;
+font-weight: 400;
+text-align: left;
+font-style: italic; 
+font-size: 18px;
+overflow: auto;
+}
+
+#link {
+font-family: "Cormorant Garamond", serif;
+font-weight: 400;
+color: darkblue;
+text-align: left;
+font-style: italic; 
+font-size: 15px;
+overflow: auto;
+}
+
+#footer {
+text-align: center;
+display: block;
+padding: 10px;
+padding-right: 10px;
+margin-top: 30px;
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0px;
+box-shadow: 5px 5px;
+border-width: 4px;
+border-style: outset;
+}
+
+#blinkies {
+text-align: center;
+display: flex;
+padding: 5px;
+padding-right: 10px;
+margin-top: 0px;
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 0px;
+}
+
+#blinkie {
+padding-left: 7px;
+padding-right: 2px;
+}
